@@ -17,9 +17,6 @@ export default {
     },
   data(){ 
     return{
-        style: {
-            color: '#000',
-        },
       newItem: '',
       items: []
     }
@@ -47,11 +44,6 @@ export default {
     margin: 10px;
     padding: 10px;
   }
-
-    .completed {
-    opacity: 0.5;
-
-    }
 
   .completed h2 {
     text-decoration: line-through;
